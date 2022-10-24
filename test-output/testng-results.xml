@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-21T12:20:35 EDT" name="Suite" finished-at="2022-10-21T12:21:08 EDT" duration-ms="33721">
+    <groups>
+    </groups>
+    <test started-at="2022-10-21T12:20:35 EDT" name="Test" finished-at="2022-10-21T12:21:08 EDT" duration-ms="33721">
+      <class name="GoogleTest">
+        <test-method signature="HomePage()[pri:0, instance:GoogleTest@6e509ffa]" started-at="2022-10-21T12:20:35 EDT" name="HomePage" finished-at="2022-10-21T12:20:52 EDT" duration-ms="17432" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 104
+Current browser version is 106.0.5249.119 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'LAPTOP-P9PJBISD', ip: '10.0.0.88'
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: unknown
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: unknown
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: unknown
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 104
+Current browser version is 106.0.5249.119 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe 
+Host info: host: 'LAPTOP-P9PJBISD', ip: '10.0.0.88'
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: unknown
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: unknown
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: unknown
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:139)
+at GoogleTest.HomePage(GoogleTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+      </class> <!-- GoogleTest -->
+      <class name="RSATest">
+        <test-method signature="HomePage()[pri:0, instance:RSATest@d21a74c]" started-at="2022-10-21T12:20:35 EDT" name="HomePage" finished-at="2022-10-21T12:21:08 EDT" duration-ms="33688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+      </class> <!-- RSATest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
